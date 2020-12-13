@@ -56,9 +56,9 @@ b, strong {
     font-weight: 600;
 }
 
-div
-    {
+.unityContainer {
    object-position: center;
+   position: absolute;
 }
 
 }
