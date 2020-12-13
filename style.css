@@ -59,6 +59,7 @@ b, strong {
 .unityContainer {
    object-position: center;
    position: absolute;
+    margin: auto;
 }
 
 }
