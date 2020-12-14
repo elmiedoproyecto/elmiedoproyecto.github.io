@@ -2,19 +2,14 @@ html {
     background: black;
 }
 
-header {
-    color: white; 
-}
 
 body {
     background: black;
     color: white;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
     margin: 0 auto;
-    max-width: 800px;
-    padding: 2em 2em 4em;
+    max-width: 100%;
+   
 }
 
 h2, h3, h4, h5, h6 {
@@ -32,7 +27,7 @@ h1 {
     font-weight: 400;
     font-size: 1em;
     font-family: 'Libre Caslon Text', serif;
-    margin-bottom: 1em;
+    margin-top: 1em;
 
 }
 h1:hover {
