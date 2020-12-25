@@ -2,23 +2,26 @@ html {
     background: black;
 }
 
+header {
+    color: white;
+}
 
 body {
     background: black;
     color: white;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Libre Caslon Text";
     margin: 0 auto;
-    max-width: 800px;
-    padding: 2em 2em 4em;
-   
+    max-width: 100%;
+ 
 }
 
 h2, h3, h4, h5, h6 {
-    font-family: 'Libre Caslon Text', serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     color: white;
-    font-weight: 200;
-    font-size: 0.7em;
+    font-weight: 400;
+    font-size: 0.9em;
+    margin-bottom: 10em;
 }
 
 h1 {
@@ -28,34 +31,50 @@ h1 {
     font-weight: 400;
     font-size: 1em;
     font-family: 'Libre Caslon Text', serif;
-    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-top: 2em;
 
 }
+
 h1:hover {
    text-shadow: 1px 1px 5px #fceaea;
     transition: 2s;
 }
+
+
 a {
     color: grey;
     text-decoration: underline;
 }
 
 p {
-    letter-spacing: 1px;
     color: white;
-    font-size: 0.6em;
-    text-align: justify;
-    font-family: 'Libre Caslon Text', serif;
+    font-size: 0.7em;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5em;
+    margin-top: 5em;
+    max-width: 500px;
+    height: auto;
 }
 
 b, strong {
     font-weight: 600;
 }
 
-.unityContainer {
-   object-position: center;
-   position: absolute;
-    margin: auto;
-}
-
+@keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
 }
